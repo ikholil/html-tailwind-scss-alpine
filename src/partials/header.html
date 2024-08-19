@@ -1,0 +1,41 @@
+<header x-data="{scrolled:false}" x-init="window.addEventListener('scroll', () => {scrolled = window.scrollY > 100})" :class="scrolled?'bg-accent2':''" class="z-10 py-4 xxl:py-6 border-b border-neutral4/15 fixed top-0 left-0 right-0 w-full">
+  <div class="container flex justify-between items-center">
+    <a href="./index.html">
+      <img src="./assets/images/logo.png" alt="" />
+    </a>
+    <ul class="hidden md:flex gap-3 lg:gap-4 xxl:gap-8 xl:text-lg">
+      <li>
+        <a class="lg:text-lg py-2 inline-flex" href="#">Buy Crypto</a>
+      </li>
+      <li>
+        <a class="lg:text-lg py-2 inline-flex" href="#">Sell Crypto</a>
+      </li>
+      <li>
+        <a class="lg:text-lg py-2 inline-flex" href="#">Swap</a>
+      </li>
+      <li>
+        <a class="lg:text-lg py-2 inline-flex" href="#">Coin Market</a>
+      </li>
+      <li>
+        <a class="lg:text-lg py-2 inline-flex" href="#">Earn</a>
+      </li>
+      <li class="relative group">
+        <button class="lg:text-lg py-2 inline-flex items-center gap-1">Pages <i class="ti ti-chevron-down"></i></button>
+        <ul class="group-hover:event-unset pointer-events-none invisible absolute left-0 top-full min-w-[200px] bg-accent5 p-3 text-n2 opacity-0 duration-300 group-hover:visible group-hover:top-full group-hover:opacity-100 lg:px-5 rounded-lg border border-accent4 max-h-[250px] overflow-y-auto">
+          <li><a class="inline-flex py-1.5 lg:text-base hover:text-primary duration-300" href="blog-list.html">Blog List</a></li>
+          <li><a class="inline-flex py-1.5 lg:text-base hover:text-primary duration-300" href="blog-grid.html">Blog Grid</a></li>
+          <li><a class="inline-flex py-1.5 lg:text-base hover:text-primary duration-300" href="blog-details.html">Blog Details</a></li>
+          <li><a class="inline-flex py-1.5 lg:text-base hover:text-primary duration-300" href="event.html">Event</a></li>
+          <li><a class="inline-flex py-1.5 lg:text-base hover:text-primary duration-300" href="contact.html">Contact</a></li>
+          <li><a class="inline-flex py-1.5 lg:text-base hover:text-primary duration-300" href="faq.html">Faqs</a></li>
+          <li><a class="inline-flex py-1.5 lg:text-base hover:text-primary duration-300" href="pricing-plan.html">Pricing Plan</a></li>
+          <li><a class="inline-flex py-1.5 lg:text-base hover:text-primary duration-300" href="sign-up.html">Sign Up</a></li>
+          <li><a class="inline-flex py-1.5 lg:text-base hover:text-primary duration-300" href="log-in.html">Log In</a></li>
+          <li><a class="inline-flex py-1.5 lg:text-base hover:text-primary duration-300" href="terms.html">Terms &amp; Conditions</a></li>
+          <li><a class="inline-flex py-1.5 lg:text-base hover:text-primary duration-300" href="404.html">404</a></li>
+        </ul>
+      </li>
+    </ul>
+    <a href="#" class="btn-primary">Connect Wallet</a>
+  </div>
+</header>
