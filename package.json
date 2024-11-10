@@ -9,31 +9,30 @@
     "build": "webpack"
   },
   "devDependencies": {
-    "autoprefixer": "^10.4.17",
+    "autoprefixer": "^10.4.20",
     "copy-webpack-plugin": "^12.0.2",
-    "css-loader": "^6.10.0",
+    "css-loader": "^7.1.2",
     "file-loader": "^6.2.0",
-    "html-loader": "^5.0.0",
-    "html-webpack-plugin": "^5.6.0",
+    "html-loader": "^5.1.0",
+    "html-webpack-plugin": "^5.6.3",
     "html-webpack-simple-include-plugin": "^1.0.6",
-    "mini-css-extract-plugin": "^2.8.0",
-    "postcss": "^8.4.35",
-    "postcss-loader": "^8.1.0",
-    "postcss-preset-env": "^9.4.0",
-    "sass": "^1.72.0",
-    "sass-loader": "^16.0.0",
-    "style-loader": "^3.3.4",
-    "tailwind": "^4.0.0",
-    "tailwindcss": "^3.4.1",
-    "webpack": "^5.90.3",
+    "mini-css-extract-plugin": "^2.9.2",
+    "postcss": "^8.4.47",
+    "postcss-loader": "^8.1.1",
+    "postcss-preset-env": "^10.0.9",
+    "sass": "^1.77.6",
+    "sass-loader": "^16.0.3",
+    "style-loader": "^4.0.0",
+    "tailwindcss": "^3.4.14",
+    "webpack": "^5.96.1",
     "webpack-cli": "^5.1.4",
-    "webpack-dev-server": "^5.0.2"
+    "webpack-dev-server": "^5.1.0"
   },
   "dependencies": {
-    "@alpinejs/collapse": "^3.14.1",
-    "@tabler/icons-webfont": "^3.12.0",
+    "@alpinejs/collapse": "^3.14.3",
+    "@tabler/icons-webfont": "^3.21.0",
     "@yaireo/ui-range": "^2.1.15",
-    "alpinejs": "^3.14.1",
-    "swiper": "^11.1.9"
+    "alpinejs": "^3.14.3",
+    "swiper": "^11.1.14"
   }
 }
