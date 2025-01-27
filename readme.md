@@ -4,7 +4,7 @@
 
 * html
 * webpack
-* tailwindcss
+* tailwindcss v4
 * scss
 * swiperjs
 * ui range slider

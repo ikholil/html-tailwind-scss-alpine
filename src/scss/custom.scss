@@ -1,31 +1,11 @@
-@import "tailwindcss";
-
-@theme {
-    --color-primary: rgb(58 150 255);
-    --color-secondary: rgb(240 185 11);
-    --color-accent1: rgb(18 255 184);
-    --color-accent2: rgb(2 5 10);
-    --color-accent3: rgb(24 26 32);
-    --color-accent4: rgb(30 35 41);
-    --color-accent5: rgb(9 19 29);
-    --color-accent6: rgb(15 30 46);
-    --color-accent7: rgb(232 44 40);
-    --color-neutral1: rgb(255 255 255);
-    --color-neutral2: rgb(244 244 244);
-    --color-neutral3: rgb(239 239 239);
-    --color-neutral4: rgb(218 218 218);
+.btn {
+  @apply inline-flex items-center ease-linear justify-center gap-2 rounded-full border px-3 py-1.5 text-sm font-semibold text-neutral1  sm:px-4 sm:py-2 md:gap-3 outline  outline-offset-[3px] hover:outline-none transition-all duration-300;
+}
+.tag {
+  @apply py-2 px-4 rounded-lg bg-accent6 border border-accent4 inline-flex hover:bg-primary duration-300;
 }
 
-
-  .btn {
-    @apply inline-flex items-center ease-linear justify-center gap-2 rounded-full border px-3 py-1.5 text-sm font-semibold text-neutral1  sm:px-4 sm:py-2 md:gap-3 outline  outline-offset-[3px] hover:outline-none transition-all duration-300;
-  }
-  .tag {
-    @apply py-2 px-4 rounded-lg bg-accent6 border border-accent4 inline-flex hover:bg-primary duration-300;
-  }
-
-
- /* switch */
+/* switch */
 
 .switch {
   @apply relative flex cursor-pointer select-none items-center  gap-2;
@@ -47,7 +27,7 @@
       }
     }
     &::after {
-      content: '';
+      content: "";
       @apply absolute left-1 top-1 h-4 w-4 rounded-full bg-neutral1 duration-300;
     }
   }
@@ -87,7 +67,7 @@
 }
 .loader::before,
 .loader::after {
-  content: '';
+  content: "";
   grid-area: 1/1;
   margin: 2px;
   border: inherit;
@@ -131,7 +111,7 @@
 }
 .hexagon:before,
 .hexagon:after {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   width: inherit;
@@ -154,31 +134,31 @@
   -o-transform: rotate(-60deg);
 }
 
-input[type='number']::-webkit-inner-spin-button,
-input[type='number']::-webkit-outer-spin-button {
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
 
 body {
-font-family: 'Outfit', sans-serif;
+  font-family: "Outfit", sans-serif;
 }
 ::-webkit-scrollbar-track {
--webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-background-color: rgb(var(--accent6));
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: rgb(var(--accent6));
 }
 
 ::-webkit-scrollbar {
-background-color: rgb(var(--accent6));
-width: 6px;
+  background-color: rgb(var(--accent6));
+  width: 6px;
 }
 
 ::-webkit-scrollbar-thumb {
-border-radius: 12px;
--webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-background-color: rgb(var(--primary));
+  border-radius: 12px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: rgb(var(--primary));
 }
 
 .event-unset {
@@ -194,7 +174,7 @@ background-color: rgb(var(--primary));
   @apply text-3xl font-bold leading-tight md:text-[52px] xl:text-[60px];
 }
 .display-3 {
-  @apply text-3xl font-bold leading-tight lg:text-5xl xl:text-[56px] ;
+  @apply text-3xl font-bold leading-tight lg:text-5xl xl:text-[56px];
 }
 .display-4 {
   @apply text-3xl xl:leading-tight lg:text-4xl xl:text-[48px] font-bold;
@@ -257,21 +237,21 @@ textarea:focus {
 }
 
 .pt-120 {
-@apply pt-14 xl:pt-[100px];
+  @apply pt-14 xl:pt-[100px];
 }
 .pb-120 {
-@apply pb-14 xl:pb-[100px];
+  @apply pb-14 xl:pb-[100px];
 }
 
 .animated-link {
-@apply text-neutral4 lg:text-lg hover:text-primary relative inline-block max-w-max duration-200 after:absolute after:bottom-0 after:right-0 after:h-0.5 after:w-0 after:bg-primary after:transition-all after:duration-300 hover:after:left-0 hover:after:right-auto hover:after:w-full;
+  @apply text-neutral4 lg:text-lg hover:text-primary relative inline-block max-w-max duration-200 after:absolute after:bottom-0 after:right-0 after:h-0.5 after:w-0 after:bg-primary after:transition-all after:duration-300 hover:after:left-0 hover:after:right-auto hover:after:w-full;
 }
 .social-link {
-@apply size-[60px] rounded-full text-2xl  bg-accent6 border hover:bg-primary duration-300 border-accent4;
+  @apply size-[60px] rounded-full text-2xl  bg-accent6 border hover:bg-primary duration-300 border-accent4 ;
 }
 .swiper-scrollbar-drag {
-background: rgb(var(--primary)) !important;
-margin-top: -2px !important;
-height: 6px !important;
-border-radius: 0 !important;
+  background: rgb(var(--primary)) !important;
+  margin-top: -2px !important;
+  height: 6px !important;
+  border-radius: 0 !important;
 }
