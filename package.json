@@ -17,22 +17,23 @@
     "html-webpack-plugin": "^5.6.3",
     "html-webpack-simple-include-plugin": "^1.0.6",
     "mini-css-extract-plugin": "^2.9.2",
-    "postcss": "^8.4.47",
+    "postcss": "^8.5.1",
     "postcss-loader": "^8.1.1",
-    "postcss-preset-env": "^10.0.9",
-    "sass": "^1.77.6",
-    "sass-loader": "^16.0.3",
+    "postcss-preset-env": "^10.1.3",
+    "sass": "^1.71.1",
+    "sass-loader": "^16.0.4",
     "style-loader": "^4.0.0",
-    "tailwindcss": "^3.4.14",
-    "webpack": "^5.96.1",
-    "webpack-cli": "^5.1.4",
-    "webpack-dev-server": "^5.1.0"
+    "tailwindcss": "^4.0.0",
+    "webpack": "^5.97.1",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.0"
   },
   "dependencies": {
-    "@alpinejs/collapse": "^3.14.3",
-    "@tabler/icons-webfont": "^3.21.0",
+    "@alpinejs/collapse": "^3.14.8",
+    "@tabler/icons-webfont": "^3.29.0",
+    "@tailwindcss/postcss": "^4.0.0",
     "@yaireo/ui-range": "^2.1.15",
-    "alpinejs": "^3.14.3",
-    "swiper": "^11.1.14"
+    "alpinejs": "^3.14.8",
+    "swiper": "^11.2.1"
   }
 }

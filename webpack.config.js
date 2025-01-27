@@ -41,7 +41,7 @@ const partialFiles = ['footer', 'header', 'loader'].map((partial) => {
 
 module.exports = {
   entry: {
-    main: "./src/assets/js/app.js",
+    main: "./src/index.js",
   },
   mode: "development",
   devServer: {

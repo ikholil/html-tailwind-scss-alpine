@@ -6,7 +6,5 @@
 * webpack
 * tailwindcss
 * scss
-* alpinejs
-* tablericons
 * swiperjs
 * ui range slider
